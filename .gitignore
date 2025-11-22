@@ -1,0 +1,57 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+book.pdf
+*.tmp
+*.swp
+*.bak
+
+# Local storage / temp directories
+storage/
+tmp/
+temp/
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+*.env
+*.env.local
+*.env.production
+*.docker
+docker-compose.yml
+
+# Pytest / test outputs
+htmlcov/
+.coverage
+.pytest_cache/
+.cache/
+
+# Celery beat schedule
+celerybeat-schedule
+celerybeat.pid
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
